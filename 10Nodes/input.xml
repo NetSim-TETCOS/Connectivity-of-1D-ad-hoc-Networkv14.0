@@ -2,10 +2,10 @@
 <TETCOS_NETSIM xmlns:ns0="http://www.w3.org/2001/XMLSchema-instance" noNamespaceSchemaLocation="Configuration.xsd">
   <EXPERIMENT_INFORMATION>
     <VERSION>pro</VERSION>
-    <NUMBER>14.0.31 (64 Bit)</NUMBER>
-    <USER>DESKTOP-005EGA9\User</USER>
+    <NUMBER>14.0.32 (64 Bit)</NUMBER>
+    <USER>DESKTOP-9RDDTLI\Lenovo</USER>
     <NAME>Experiment</NAME>
-    <DATE>10/26/2023 1:26 PM</DATE>
+    <DATE>12/06/2023 8:42 AM</DATE>
     <COMMENT>-</COMMENT>
   </EXPERIMENT_INFORMATION>
   <GUI_INFORMATION>
@@ -263,7 +263,7 @@
         </LAYER>
       </DEVICE>
       <DEVICE KEY="WirelessNode" DEVICE_NAME="Wireless_Node_6" DEVICE_ID="6" TYPE="NODE" WIRESHARK_OPTION="Disable" INTERFACE_COUNT="1" DEVICE_ICON="C:\Program Files\NetSim\Pro_v14_0\Docs\Icons\WirelessNode.png">
-        <POS_3D X_OR_LON="{5}" Y_OR_LAT="500.0000000000001" Z="0" COORDINATE_SYSTEM="Cartesian" ICON_ROTATION="0">
+        <POS_3D X_OR_LON="{5}" Y_OR_LAT="500" Z="0" COORDINATE_SYSTEM="Cartesian" ICON_ROTATION="0">
           <MOBILITY MODEL="NO_MOBILITY" />
         </POS_3D>
         <INTERFACE ID="1" INTERFACE_NAME="Interface_1 (Wireless)" INTERFACE_TYPE="WIRELESS">
@@ -359,7 +359,7 @@
         </LAYER>
       </DEVICE>
       <DEVICE KEY="WirelessNode" DEVICE_NAME="Wireless_Node_8" DEVICE_ID="8" TYPE="NODE" WIRESHARK_OPTION="Disable" INTERFACE_COUNT="1" DEVICE_ICON="C:\Program Files\NetSim\Pro_v14_0\Docs\Icons\WirelessNode.png">
-        <POS_3D X_OR_LON="{7}" Y_OR_LAT="500" Z="0" COORDINATE_SYSTEM="Cartesian" ICON_ROTATION="0">
+        <POS_3D X_OR_LON="{7}" Y_OR_LAT="500.5643340857788" Z="0" COORDINATE_SYSTEM="Cartesian" ICON_ROTATION="0">
           <MOBILITY MODEL="NO_MOBILITY" />
         </POS_3D>
         <INTERFACE ID="1" INTERFACE_NAME="Interface_1 (Wireless)" INTERFACE_TYPE="WIRELESS">
@@ -447,7 +447,7 @@
         </LAYER>
         <LAYER TYPE="NETWORK_LAYER">
           <PROTOCOL NAME="IPV4" SETPROPERTY="TRUE">
-            <PROTOCOL_PROPERTY ICMP_STATUS="FALSE" STATIC_IP="Enable" STATIC_IP_ROUTE="" PROCESSING_DELAY_US="0" />
+            <PROTOCOL_PROPERTY ICMP_STATUS="FALSE" STATIC_IP="Enable" STATIC_IP_ROUTE="ConfigSupport\StaticIPConfigure9.txt" PROCESSING_DELAY_US="0" />
           </PROTOCOL>
           <ROUTING_PROTOCOL NAME="AODV" SETPROPERTY="TRUE">
             <PROTOCOL_PROPERTY ROUTING_PROTOCOL="AODV" />
